@@ -77,7 +77,7 @@ This real-time polling application with chat features provides an engaging platf
 
 ## Future Enhancements
 
-- **Persistent Storage**: Implement a database to store poll data and chat messages persistently.
+- **Customization**: Customize the color of each user bubble in chat. Adding Edit/Delete options to both chat and poll.
 - **Advanced Authentication**: Enhance the authentication system to support more secure methods, such as OAuth.
 - **Scalability**: Improve the application's scalability to handle a larger number of users simultaneously.
 

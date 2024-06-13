@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: azure;
+}
+.nav-main-cont{
+  background-color: azure;
+}
+.nav-leftArea {
+  background-color: azure;
+ 
+}
+
+.nav-rightArea {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+
+}
+.nav-icons-cls {
+  display: flex !important;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.nav-add-icon {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.nav-logout-icon {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    width: 100%;
+    flex: 0 0 1;
+  }
+}

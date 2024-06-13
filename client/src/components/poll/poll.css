@@ -1,0 +1,42 @@
+.poll-container {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  background-color: rgb(144, 221, 254);
+}
+
+.poll-card {
+  width: 400px;
+  margin: 20px auto;
+}
+.card-footer-main {
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.card-footer-sub {
+  font-weight: 500;
+  font-size: 0.7rem;
+  font-family: monospace;
+  font-style: italic;
+}
+.empty-poll {
+  display: grid;
+  place-content: center;
+  height: 100%;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  background: rgba(255, 255, 255, 0.2);
+}
+.modal-class .form-group {
+  margin: 1rem 0;
+}
+.opt-delete {
+  position: relative;
+}
+.opt-delete .floating-del {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
